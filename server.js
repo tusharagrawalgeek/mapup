@@ -26,7 +26,7 @@ function authenticate(req, res, next) {
 app.post('/api/intersections',authenticate, (req, res) => {
     // console.log(req.body);
   try {
-    const  linestring  = req.body;
+    // const  linestring  = req.body;
     const  lines  = require('./lines');
     const linestring=require('./long-ls.json');
     // Validate the linestring
